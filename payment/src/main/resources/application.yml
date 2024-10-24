@@ -10,7 +10,7 @@ spring:
     database: mysql
     show-sql: true
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   kafka:
@@ -26,3 +26,10 @@ eureka:
       defaultUrl: http://localhost:8761/eureka
   instance:
     prefer-ip-address: true # ???
+
+  
+api:
+  key: test_sk_mBZ1gQ4YVXjawyl0aAq68l2KPoqN
+
+server:
+  port: 4000

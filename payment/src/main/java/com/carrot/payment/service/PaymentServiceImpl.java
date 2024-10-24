@@ -85,6 +85,6 @@ public class PaymentServiceImpl implements PaymentService {
 
     @Override
     public List<Payment> getPendingPayments() {
-        return paymentRepository.findAllByPaymentStatus(PaymentStatus.REQUESTED);
+        return paymentRepository.findAllByStatus(PaymentStatus.REQUESTED);
     }
 }
