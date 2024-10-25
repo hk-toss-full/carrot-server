@@ -1,11 +1,11 @@
 spring:
   application:
     name: daily
-  datasource:
-    url: jdbc:mysql://localhost:3306/carrotTestDB?serverTimezone=Asia/Seoul
-    username: test
-    password: 1234
-    driver-class-name: com.mysql.cj.jdbc.Driver
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/carrotTestDB?serverTimezone=Asia/Seoul
+#    username: test
+#    password: 1234
+#    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     database: mysql
     show-sql: true
