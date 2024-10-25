@@ -34,6 +34,8 @@ public class Payment {
     @Enumerated(EnumType.STRING)
     private PaymentStatus status;
 
+    private String transactionId; // 결제번호 like 배민주문번호
+
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 }
