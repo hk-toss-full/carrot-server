@@ -29,7 +29,7 @@ public class Payment {
     @Column(nullable = false)
     private Long chatRoomId;
 
-    private Long price;
+    private Double price;
 
     @Enumerated(EnumType.STRING)
     private PaymentStatus status;
